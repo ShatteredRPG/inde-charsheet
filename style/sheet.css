@@ -1,0 +1,50 @@
+body { 
+    font-size: 0.5vw;
+}
+
+p { }
+a { }
+h1 { 
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3vw;
+}
+h2 {
+    font-size: 2vw;
+ }
+h3 {
+    font-size: 1vw;
+ }
+.h-row {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evently;
+    align-content: space-around;
+    width: 100%;
+ }
+.w-half {
+    width: 50%;
+    background-color: blue;
+ }
+.w-third {
+    width: 33.333333%;
+    background-color: lightgreen;
+ }
+.w-two-third {
+    width: 66.666666%;
+    background-color: green;
+ }
+.w-fourth {
+    width: 25%;
+    background-color: lightcoral;
+ }
+.w-three-fourth { 
+    width: 75%;
+    background-color: orange;
+ }
+
+ .char-info {
+     border-bottom: 3px solid black;
+     height: 3vh;
+     width: 95%;
+     font-size: 3vh;
+ }
